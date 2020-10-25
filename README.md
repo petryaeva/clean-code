@@ -127,7 +127,7 @@ private Date modificationTimestamp;
 ### Изолируйте блоки try/catch
 Блоки try/catch выглядят уродливо, запутывают структуру кода и смешивают обработку ошибок с нормальной обработкой, поэтому лучше выносить эти блоки в отдельные ф-ии, например:
 
-```
+```javascript
 try {
   deletePageAndReferences(page);
 } catch (e) {
